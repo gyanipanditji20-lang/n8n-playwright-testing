@@ -1,4 +1,5 @@
 
+
 const { test, expect } = require('@playwright/test');
 
 test('Demo website opens successfully', async ({ page }) => {
@@ -8,3 +9,4 @@ test('Demo website opens successfully', async ({ page }) => {
     page.getByText('Swag Labs')
   ).toBeVisible();
 });
+
